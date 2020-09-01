@@ -26,9 +26,10 @@ PHP_EOL;
 //Combinatie Opdracht
 
 $activiteiten = readline("Hoeveel activiteiten wil je toevoegen aan je bucket list?");
+$welkeArray = array();
 
 for($i=0; $i<$activiteiten; $i++){
-    $welkeArray[] = readline("Welke activiteiten wil je toevoegen?");
+    array_push($welkeArray, readline("Welke activiteiten wil je toevoegen?"));
 }
 
 print_r($welkeArray);
