@@ -33,3 +33,5 @@ print_r($bucket_list);
 foreach($bucket_list as $item){
     echo $item, PHP_EOL;
 }
+
+?>
