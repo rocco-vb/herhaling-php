@@ -5,23 +5,19 @@ $getal = 1;
 
 echo is_int($getal);
 
-PHP_EOL;
-
 //Array + for-loop
 
 $klas = ["Piet van Dijk", "Rembrandt van Rijn", "Vincent van Gogh", "Floris van Dyck"]; 
+
+print_r($klas);
 
 for($i = 0; $i<count($klas); $i++){
     echo $klas[$i], PHP_EOL;
 }
 
-PHP_EOL;
-
 foreach($klas as $item){
     echo $item, PHP_EOL;
 }
-
-PHP_EOL;
 
 //Combinatie Opdracht
 
